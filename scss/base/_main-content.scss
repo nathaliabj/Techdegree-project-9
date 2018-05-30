@@ -1,0 +1,253 @@
+// ======================
+// Main content
+// ======================
+
+#wrapper {
+  .main-content {
+    width: 96%;
+    margin: auto;
+    .search {
+    .search-bar {
+      position: absolute;
+      margin: auto;
+      top: 140px;
+      width: 95%;
+      height: 30px;
+      padding-left: 10px;
+      border: solid 1px #d8d8d8;
+      border-radius: 5px;
+      &::placeholder {
+        color: #e5e5e5;
+        font-weight: lighter;
+        font-size: 14px;
+      }
+    }
+    p {
+      display: none;
+    }
+  }
+    .alert{
+      background: #7379ba;
+      width: 95%;
+      margin: auto;
+      color: #fff;
+      padding: 0px 5px;
+      font-weight: lighter;
+      font-size: 14px;
+      display: flex;
+      border-radius: 5px;
+      margin-top: 60px;
+      .close {
+        margin-left: auto;
+        font-size: 25px;
+        font-weight: bolder;
+        padding-top: 5px;
+        padding-right: 10px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    .line {
+      width: 98%;
+      margin: auto;
+      max-height: 50%;
+    }
+    .lineChart-Lbl {
+      width: 98%;
+      margin: 30px auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding-left: 0;
+      li {
+        list-style: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        &:first-child {
+          margin-right: auto;
+        }
+      }
+      .target {
+        background-color: #78ca64;
+        border-radius: 20px;
+        color: #fff;
+      }
+    }
+    .charts {
+      margin-top: 30px;
+      max-width: 100%;
+        .chart {
+          padding: 20px;
+          border: solid 1px #d8d8d8;
+          margin-bottom: 30px;
+        }
+      }
+      .social-s {
+        width: 95%;
+        margin: auto;
+      }
+      .social {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: left;
+        border: solid 1px #d8d8d8;
+        background-color: #fbfbfb;
+        border-radius: 5px;
+        margin: 20px auto;
+        height: 115px;
+        padding-top: 35px;
+        width: 70%;
+        .social-net {
+          font-size: 18px;
+          color: #7379ba;
+          margin: 0;
+        }
+        .number {
+          font-size: 45px;
+          font-weight: lighter;
+          margin: 0;
+          color: grey;
+        }
+        .social-icon {
+          background: #7379ba;
+          border-radius: 50%;
+          margin-right: 20px;
+          margin-left: 30px;
+          width: 30px;
+          height: 30px;
+          padding: 20px;
+          svg  {
+            fill: #fff;
+          }
+        }
+      }
+      .title {
+        padding-left: 20px;
+      }
+      .space {
+        margin-bottom: 30px;
+      }
+      .members-row {
+        margin-top: 25px;
+        .title-members {
+          padding: 10px 20px;
+        }
+        .new-members {
+          width: 100%;
+          .members {
+            display: flex;
+            padding: 10px 0;
+            margin: 0 20px;
+            border-top: solid 1px #d8d8d8;
+            img {
+              width: 50px;
+              height: 50px;
+              border-radius: 50%;
+              padding-top: 8px;
+            }
+            .act  {
+              padding-top: 12px;
+            }
+            p {
+              margin-left: 15px;
+              margin-bottom: 15px;
+            }
+            .date {
+              margin-left: auto;
+            }
+            .email-date {
+              color: #7379ba;
+            }
+          }
+        }
+      }
+      .message, .settings {
+        margin-top: 30px;
+        .title-r {
+          padding: 10px 0;
+        }
+      }
+      .bottom {
+        margin-bottom: 30px;
+      }
+      .message {
+        margin-top: 30px;
+        width: 90%;
+        margin: auto;
+        .user-search,
+        textarea {
+          width: 100%;
+          justify-content: center;
+          border-radius: 5px;
+          border: solid 1px #d8d8d8;
+        }
+        .user-search {
+          height: 30px;
+          padding-left: 10px;
+          &::placeholder {
+            color: #e5e5e5;
+            font-weight: lighter;
+            font-size: 14px;
+          }
+        }
+        textarea {
+          height: 120px;
+          margin-top: 20px;
+          padding-left: 10px;
+          padding-top: 10px;
+          &::placeholder {
+            color: #e5e5e5;
+            font-weight: lighter;
+            font-size: 14px;
+          }
+        }
+        .send-btn {
+          width: 101%;
+          height: 50px;
+          border-radius: 5px;
+          margin-top: 20px;
+          background: #7279ba;
+          color: #fff;
+        }
+      }
+      .settings {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+        .preference {
+          width: 70%;
+          .checkbox {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+          }
+        }
+        select {
+          width: 100%;
+          height: 40px;
+          border: solid 1px #d8d8d8;
+          &::placeholder {
+            color: #e5e5e5;
+            font-weight: lighter;
+            font-size: 14px;
+          }
+        }
+        .settings-btn {
+          width: 49.5%;
+          justify-content: space-between;
+          height: 50px;
+          margin-top: 20px;
+          border-radius: 5px;
+        }
+        .save {
+          background: #7279ba;
+          color: #fff;
+        }
+        .cancel {
+          background: #b2b2b2;
+          color: #fff;
+        }
+      }
+    }
+  }

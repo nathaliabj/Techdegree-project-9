@@ -1,0 +1,10 @@
+// ==================================
+// Functions
+// ==================================
+
+// Grid context function
+
+@function g-context($g-col-width, $g-col-count, $g-gutter-width) {
+	$g-context: ($g-col-width * $g-col-count) + ($g-gutter-width * ($g-col-count - 1));
+	@return $g-context;
+}

@@ -1,0 +1,65 @@
+// ======================
+// Media Query
+// ======================
+
+@media (min-width: 768px) {
+  #wrapper {
+   display: flex;
+      .nav {
+          ul {
+            display: flex;
+            flex-direction: column;
+            .dashboard {
+              box-shadow: inset 4px 0px 0px #99d789;
+            }
+            li {
+              margin: 10px 0;
+              padding: 18px 30px;
+              margin-top: 22px;
+              svg {
+                width: 25px;
+                height: 25px;
+              }
+            }
+          }
+      }
+    .main-content {
+      width: 100%;
+      .bor {
+        border-left: solid 1px #d8d8d8;
+      }
+      .search {
+        width: 100%;
+        .search-bx {
+          background: #f8f8f8;
+          border: solid 1px #d8d8d8;
+        }
+        .search-bar {
+            top: 73px;
+            width: 20%;
+            right: 25px;
+        }
+        p {
+          display: block;
+          background: #fff;
+          padding: 22px;
+          margin: 0;
+          border-bottom: #fff;
+        }
+      }
+      .alert {
+          margin-top: 20px;
+          width: 96%;
+      }
+      .charts {
+        width: 100%;
+      }
+      .social {
+        margin: 20px none;
+      }
+      .members-row {
+        border: solid 1px #d8d8d8;
+      }
+    }
+  }
+}

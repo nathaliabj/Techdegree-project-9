@@ -1,0 +1,25 @@
+// ======================
+// Navigation
+// ======================
+
+#wrapper {
+    .nav {
+      background-color: #504d6f;
+      display: block;
+      max-width: 100%;
+      ul {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 0;
+        padding-left: 0;
+        li {
+          list-style: none;
+          padding: 20px 0;
+          svg {
+            width: 25px;
+            height: 25px;
+          }
+        }
+      }
+    }
+  }
