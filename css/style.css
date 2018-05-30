@@ -343,7 +343,7 @@ header {
   #wrapper .main-content .social {
     margin-bottom: 30px;
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     border: solid 1px #d8d8d8;
     background-color: #fbfbfb;
     border-radius: 5px;
@@ -654,7 +654,7 @@ input:checked + .slider .off {
       #wrapper .main-content .charts {
         width: 100%; }
       #wrapper .main-content .social {
-        margin: 20px none; }
+        margin: 20px auto; }
       #wrapper .main-content .members-row {
         border: solid 1px #d8d8d8; } }
 
